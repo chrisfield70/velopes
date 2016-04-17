@@ -22,7 +22,12 @@ then got it running on local, foreman start web
 now I have app running locally, that post sync with github (on master only) is then built on heroku and visible
 Pretty cool. 
 
+17 April 2015
 
+Yesterday I added in Up and Running with Django excercise - account managment.
+Today I modified it and started putting in some of my HAM from 2011. 
+Fun times. 
+Using the 'messing locally' branch. Ignoring Heroku for the moment. 
 
 
 

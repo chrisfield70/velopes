@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<a href="{% url 'index' %}">Back to account List</a>
+<h3>{{account.title|capfirst}}</h3>
+<p> Current Balance: {{ account.currentBalance }} </p>
+<p><b>Description:</b> {{account.description}}
+</p>
+
+{% endblock content %}

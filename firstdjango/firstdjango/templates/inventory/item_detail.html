@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<a href="{% url 'index' %}">Back to item List</a>
+<h3>{{item.title|capfirst}}</h3>
+<p> {{ item.amount }} currently in stock</p>
+<p><b>Description:</b> {{item.description}}
+</p>
+
+{% endblock content %}
